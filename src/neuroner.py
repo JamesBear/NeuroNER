@@ -3,7 +3,7 @@ matplotlib.use('Agg')
 import train
 import dataset as ds
 import tensorflow as tf
-from tensorflow.contrib.tensorboard.plugins import projector
+from tensorboard.plugins import projector
 from entity_lstm import EntityLSTM
 import utils
 import os
@@ -20,6 +20,7 @@ import brat_to_conll
 import numpy as np
 import utils_nlp
 import distutils
+from distutils import util
 import configparser
 from pprint import pprint
 # http://stackoverflow.com/questions/42217532/tensorflow-version-1-0-0-rc2-on-windows-opkernel-op-bestsplits-device-typ
